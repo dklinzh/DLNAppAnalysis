@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62161BB0109782E4512E2C6C /* libPods-DLNAppAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A5D2F1D9713ABFEE144623 /* libPods-DLNAppAnalysis.a */; };
+		C2DEE7D01CEE9E9F0010DBDF /* DLNAppAnalysis.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DEE7CF1CEE9E9F0010DBDF /* DLNAppAnalysis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2DEE7D71CEE9E9F0010DBDF /* DLNAppAnalysis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2DEE7CC1CEE9E9E0010DBDF /* DLNAppAnalysis.framework */; };
+		C2DEE7DC1CEE9E9F0010DBDF /* DLNAppAnalysisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE7DB1CEE9E9F0010DBDF /* DLNAppAnalysisTests.m */; };
+		C2DEE7E91CEEA0800010DBDF /* DLNRunLoopObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DEE7E71CEEA0800010DBDF /* DLNRunLoopObserver.h */; };
+		C2DEE7EA1CEEA0800010DBDF /* DLNRunLoopObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DEE7E81CEEA0800010DBDF /* DLNRunLoopObserver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2DEE7D81CEE9E9F0010DBDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2DEE7C31CEE9E9E0010DBDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2DEE7CB1CEE9E9E0010DBDF;
+			remoteInfo = DLNAppAnalysis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E4E133F663B6C7C9A9A65EC /* Pods-DLNAppAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLNAppAnalysis.release.xcconfig"; path = "Pods/Target Support Files/Pods-DLNAppAnalysis/Pods-DLNAppAnalysis.release.xcconfig"; sourceTree = "<group>"; };
+		7D86A60F548DC39E4D873A23 /* Pods-DLNAppAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLNAppAnalysis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DLNAppAnalysis/Pods-DLNAppAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
+		91A5D2F1D9713ABFEE144623 /* libPods-DLNAppAnalysis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DLNAppAnalysis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DEE7CC1CEE9E9E0010DBDF /* DLNAppAnalysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLNAppAnalysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DEE7CF1CEE9E9F0010DBDF /* DLNAppAnalysis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLNAppAnalysis.h; sourceTree = "<group>"; };
+		C2DEE7D11CEE9E9F0010DBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DEE7D61CEE9E9F0010DBDF /* DLNAppAnalysisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLNAppAnalysisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DEE7DB1CEE9E9F0010DBDF /* DLNAppAnalysisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLNAppAnalysisTests.m; sourceTree = "<group>"; };
+		C2DEE7DD1CEE9E9F0010DBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DEE7E71CEEA0800010DBDF /* DLNRunLoopObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNRunLoopObserver.h; sourceTree = "<group>"; };
+		C2DEE7E81CEEA0800010DBDF /* DLNRunLoopObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNRunLoopObserver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2DEE7C81CEE9E9E0010DBDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62161BB0109782E4512E2C6C /* libPods-DLNAppAnalysis.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DEE7D31CEE9E9F0010DBDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DEE7D71CEE9E9F0010DBDF /* DLNAppAnalysis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B599B49E4FF54A1EF4EB7EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91A5D2F1D9713ABFEE144623 /* libPods-DLNAppAnalysis.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E85ED018422310993B09B93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D86A60F548DC39E4D873A23 /* Pods-DLNAppAnalysis.debug.xcconfig */,
+				1E4E133F663B6C7C9A9A65EC /* Pods-DLNAppAnalysis.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2DEE7C21CEE9E9E0010DBDF = {
+			isa = PBXGroup;
+			children = (
+				C2DEE7CE1CEE9E9E0010DBDF /* DLNAppAnalysis */,
+				C2DEE7DA1CEE9E9F0010DBDF /* DLNAppAnalysisTests */,
+				C2DEE7CD1CEE9E9E0010DBDF /* Products */,
+				6E85ED018422310993B09B93 /* Pods */,
+				2B599B49E4FF54A1EF4EB7EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2DEE7CD1CEE9E9E0010DBDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEE7CC1CEE9E9E0010DBDF /* DLNAppAnalysis.framework */,
+				C2DEE7D61CEE9E9F0010DBDF /* DLNAppAnalysisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2DEE7CE1CEE9E9E0010DBDF /* DLNAppAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEE7E61CEE9F5C0010DBDF /* Performance */,
+				C2DEE7CF1CEE9E9F0010DBDF /* DLNAppAnalysis.h */,
+				C2DEE7D11CEE9E9F0010DBDF /* Info.plist */,
+			);
+			path = DLNAppAnalysis;
+			sourceTree = "<group>";
+		};
+		C2DEE7DA1CEE9E9F0010DBDF /* DLNAppAnalysisTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEE7DB1CEE9E9F0010DBDF /* DLNAppAnalysisTests.m */,
+				C2DEE7DD1CEE9E9F0010DBDF /* Info.plist */,
+			);
+			path = DLNAppAnalysisTests;
+			sourceTree = "<group>";
+		};
+		C2DEE7E61CEE9F5C0010DBDF /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				C2DEE7E71CEEA0800010DBDF /* DLNRunLoopObserver.h */,
+				C2DEE7E81CEEA0800010DBDF /* DLNRunLoopObserver.m */,
+			);
+			path = Performance;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C2DEE7C91CEE9E9E0010DBDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DEE7D01CEE9E9F0010DBDF /* DLNAppAnalysis.h in Headers */,
+				C2DEE7E91CEEA0800010DBDF /* DLNRunLoopObserver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C2DEE7CB1CEE9E9E0010DBDF /* DLNAppAnalysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DEE7E01CEE9E9F0010DBDF /* Build configuration list for PBXNativeTarget "DLNAppAnalysis" */;
+			buildPhases = (
+				C3CFA0CBD6C69F01CCAACDCF /* [CP] Check Pods Manifest.lock */,
+				C2DEE7C71CEE9E9E0010DBDF /* Sources */,
+				C2DEE7C81CEE9E9E0010DBDF /* Frameworks */,
+				C2DEE7C91CEE9E9E0010DBDF /* Headers */,
+				C2DEE7CA1CEE9E9E0010DBDF /* Resources */,
+				C2DEE7EB1D34809A0010DBDF /* Bump Build Version */,
+				FBEEDE74752BDA6B48837607 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLNAppAnalysis;
+			productName = DLNAppAnalysis;
+			productReference = C2DEE7CC1CEE9E9E0010DBDF /* DLNAppAnalysis.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2DEE7D51CEE9E9F0010DBDF /* DLNAppAnalysisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DEE7E31CEE9E9F0010DBDF /* Build configuration list for PBXNativeTarget "DLNAppAnalysisTests" */;
+			buildPhases = (
+				C2DEE7D21CEE9E9F0010DBDF /* Sources */,
+				C2DEE7D31CEE9E9F0010DBDF /* Frameworks */,
+				C2DEE7D41CEE9E9F0010DBDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2DEE7D91CEE9E9F0010DBDF /* PBXTargetDependency */,
+			);
+			name = DLNAppAnalysisTests;
+			productName = DLNAppAnalysisTests;
+			productReference = C2DEE7D61CEE9E9F0010DBDF /* DLNAppAnalysisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2DEE7C31CEE9E9E0010DBDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Lin";
+				TargetAttributes = {
+					C2DEE7CB1CEE9E9E0010DBDF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C2DEE7D51CEE9E9F0010DBDF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C2DEE7C61CEE9E9E0010DBDF /* Build configuration list for PBXProject "DLNAppAnalysis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2DEE7C21CEE9E9E0010DBDF;
+			productRefGroup = C2DEE7CD1CEE9E9E0010DBDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2DEE7CB1CEE9E9E0010DBDF /* DLNAppAnalysis */,
+				C2DEE7D51CEE9E9F0010DBDF /* DLNAppAnalysisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2DEE7CA1CEE9E9E0010DBDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DEE7D41CEE9E9F0010DBDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2DEE7EB1D34809A0010DBDF /* Bump Build Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bump Build Version";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$CONFIGURATION\" == \"Debug\" ]; then\n#buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\n#buildNumber=$(($buildNumber + 1))\nbuildNumber=$(date +%Y%m%d%H%M)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\nfi";
+		};
+		C3CFA0CBD6C69F01CCAACDCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEEDE74752BDA6B48837607 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLNAppAnalysis/Pods-DLNAppAnalysis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2DEE7C71CEE9E9E0010DBDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DEE7EA1CEEA0800010DBDF /* DLNRunLoopObserver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DEE7D21CEE9E9F0010DBDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DEE7DC1CEE9E9F0010DBDF /* DLNAppAnalysisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2DEE7D91CEE9E9F0010DBDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2DEE7CB1CEE9E9E0010DBDF /* DLNAppAnalysis */;
+			targetProxy = C2DEE7D81CEE9E9F0010DBDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2DEE7DE1CEE9E9F0010DBDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2DEE7DF1CEE9E9F0010DBDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2DEE7E11CEE9E9F0010DBDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D86A60F548DC39E4D873A23 /* Pods-DLNAppAnalysis.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DLNAppAnalysis/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dln.framework.DLNAppAnalysis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C2DEE7E21CEE9E9F0010DBDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4E133F663B6C7C9A9A65EC /* Pods-DLNAppAnalysis.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DLNAppAnalysis/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dln.framework.DLNAppAnalysis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C2DEE7E41CEE9E9F0010DBDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DLNAppAnalysisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dln.framework.DLNAppAnalysisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2DEE7E51CEE9E9F0010DBDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DLNAppAnalysisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dln.framework.DLNAppAnalysisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2DEE7C61CEE9E9E0010DBDF /* Build configuration list for PBXProject "DLNAppAnalysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DEE7DE1CEE9E9F0010DBDF /* Debug */,
+				C2DEE7DF1CEE9E9F0010DBDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2DEE7E01CEE9E9F0010DBDF /* Build configuration list for PBXNativeTarget "DLNAppAnalysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DEE7E11CEE9E9F0010DBDF /* Debug */,
+				C2DEE7E21CEE9E9F0010DBDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2DEE7E31CEE9E9F0010DBDF /* Build configuration list for PBXNativeTarget "DLNAppAnalysisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DEE7E41CEE9E9F0010DBDF /* Debug */,
+				C2DEE7E51CEE9E9F0010DBDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2DEE7C31CEE9E9E0010DBDF /* Project object */;
+}
